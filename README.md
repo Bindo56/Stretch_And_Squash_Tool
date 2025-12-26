@@ -30,7 +30,7 @@ Animator-friendly & non-destructive
 
 Supports cartoony → realistic styles
 
-
+_______________________________________________________________________________________________________________________
 
 🧠 Technical Overview
 
@@ -46,7 +46,7 @@ Deformation is split between upper & lower bones using a distribution parameter
 
 All values are evaluated inside ProcessAnimation() using AnimationStream, making it frame-safe and performant.
 
-
+_______________________________________________________________________________________________________________________
 
 🧩 Architecture
 
@@ -65,7 +65,7 @@ StretchConstraint
 Custom RigConstraint wrapper
 Includes rest-length calculation and IK reset utilities
 
-
+_______________________________________________________________________________________________________________________
 
 🛠 Requirements
 
@@ -81,7 +81,7 @@ TextMeshPro
 
 ⚠️ If you see pink materials or a blank scene, make sure URP is properly set up.
 
-
+_______________________________________________________________________________________________________________________
 
 📦 Installation
 
@@ -95,7 +95,7 @@ StretchRig_SaurabhKundalwal.unitypackage
 Open the demo scene:
 Demo_StretchRig_Scene
 
-
+_______________________________________________________________________________________________________________________
 
 🧪 Usage
 
@@ -119,7 +119,7 @@ Axis selection
 
 Optionally control multiple rigs via the Global Stretch Controller
 
-
+_______________________________________________________________________________________________________________________
 
 🎯 Use Cases
 
@@ -133,7 +133,7 @@ Gameplay-driven deformation
 
 Technical Artist tooling
 
-
+_______________________________________________________________________________________________________________________
 
 📈 Performance Notes
 
@@ -145,6 +145,7 @@ No Animator graph complexity
 
 Safe for runtime and editor usage
 
+_______________________________________________________________________________________________________________________
 
 📄 Demo & Docs
 
