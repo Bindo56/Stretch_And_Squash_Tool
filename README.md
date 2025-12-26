@@ -4,6 +4,11 @@ A procedural Stretch & Squash system for Unity built using a low-level IAnimatio
 
 This tool applies stretch and squash directly in the animation stream, layered non-destructively on top of IK and existing animations.
 
+
+
+https://github.com/user-attachments/assets/3d814ffe-8e39-491f-9363-ac0fb4bcfff3
+
+
 ✨ Features
 
 Procedural stretch & squash evaluated at runtime
@@ -24,6 +29,7 @@ Animator-friendly & non-destructive
 
 Supports cartoony → realistic styles
 
+
 🧠 Technical Overview
 
 The system works by measuring the live distance between the upper joint and the IK target, comparing it against a stored rest length, and computing a stretch ratio:
@@ -37,6 +43,7 @@ Squash is applied using inverse scaling to preserve volume
 Deformation is split between upper & lower bones using a distribution parameter
 
 All values are evaluated inside ProcessAnimation() using AnimationStream, making it frame-safe and performant.
+
 
 🧩 Architecture
 
@@ -55,6 +62,7 @@ StretchConstraint
 Custom RigConstraint wrapper
 Includes rest-length calculation and IK reset utilities
 
+
 🛠 Requirements
 
 Unity 6000.0.43f1
@@ -69,6 +77,7 @@ TextMeshPro
 
 ⚠️ If you see pink materials or a blank scene, make sure URP is properly set up.
 
+
 📦 Installation
 
 Create a URP 3D Project
@@ -80,6 +89,7 @@ StretchRig_SaurabhKundalwal.unitypackage
 
 Open the demo scene:
 Demo_StretchRig_Scene
+
 
 🧪 Usage
 
@@ -103,6 +113,7 @@ Axis selection
 
 Optionally control multiple rigs via the Global Stretch Controller
 
+
 🎯 Use Cases
 
 Character animation polish
@@ -114,6 +125,7 @@ Procedural animation systems
 Gameplay-driven deformation
 
 Technical Artist tooling
+
 
 📈 Performance Notes
 
@@ -130,6 +142,5 @@ Safe for runtime and editor usage
 A full setup guide and screenshots are included in:
 Stretch & Squash Tool Docs (PDF)
 
-👤 Author
-
+👤 Author :-
 Saurabh Kundalwal
